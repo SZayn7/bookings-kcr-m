@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings - KCR-M</title>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #0a0a23;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0a0a23;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            color: #ffd700;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .cta-buttons {
+            margin: 20px 0;
+        }
+        .cta-buttons a {
+            background-color: #ffd700;
+            color: #0a0a23;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-family: 'Playfair Display', serif;
+            color: #ffd700;
+            margin-bottom: 20px;
+        }
+        .featured-talent, .why-choose-us, .testimonials {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .featured-talent div, .why-choose-us div, .testimonials div {
+            background-color: #1a1a3d;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+        }
+        .booking-form {
+            background-color: #1a1a3d;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .booking-form input, .booking-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .booking-form button {
+            background-color: #ffd700;
+            color: #0a0a23;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #0a0a23;
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book the Stars. Elevate Your Event.</h1>
+        <p>From red carpet icons to rising influencers, KCR-M Bookings connects you with the talent that makes headlines.</p>
+        <div class="cta-buttons">
+            <a href="#browse-talent">Browse Talent</a>
+            <a href="#booking-form">Request a Booking</a>
+        </div>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>KCR-M Bookings is your premier destination for celebrity appearances, brand endorsements, and media engagements. Whether you're planning a high-profile event, launching a campaign, or seeking a spokesperson, we make the connection seamless and professional.</p>
+    </section>
+    <section id="featured-talent">
+        <h2>Featured Talent</h2>
+        <div>
+            <h3>Celebrity Name</h3>
+            <p>Actor</p>
+            <p>Available</p>
+            <a href="#booking-form">Request Booking</a>
+        </div>
+        <div>
+            <h3>Celebrity Name</h3>
+            <p>Influencer</p>
+            <p>Available</p>
+            <a href="#booking-form">Request Booking</a>
+        </div>
+        <div>
+            <h3>Celebrity Name</h3>
+            <p>Athlete</p>
+            <p>Available</p>
+            <a href="#booking-form">Request Booking</a>
+        </div>
+    </section>
+    <section id="why-choose-us">
+        <h2>Why Choose Us</h2>
+        <div>
+            <h3>Curated Talent Roster</h3>
+            <p>Only the best in entertainment, fashion, and media.</p>
+        </div>
+        <div>
+            <h3>White-Glove Service</h3>
+            <p>Personalized support from inquiry to event.</p>
+        </div>
+        <div>
+            <h3>Discreet & Professional</h3>
+            <p>Trusted by global brands and elite clients.</p>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div>
+            <p>“KCR-M made our product launch unforgettable. The booking process was smooth and the talent was a perfect fit.”</p>
+            <p>— Luxury Brand Manager</p>
+        </div>
+    </section>
+    <section id="booking-form">
+        <h2>Let’s Make It Official</h2>
+        <p>Tell us about your event or campaign, and we’ll match you with the perfect talent.</p>
+        <form class="booking-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="text" name="company" placeholder="Company/Organization" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <input type="text" name="talent" placeholder="Talent Name (if known)">
+            <input type="text" name="event-type" placeholder="Event Type" required>
+            <input type="date" name="event-date" placeholder="Event Date" required>
+            <input type="text" name="event-location" placeholder="Event Location" required>
+            <input type="text" name="budget" placeholder="Budget Range" required>
+            <textarea name="notes" placeholder="Additional Notes"></textarea>
+            <button type="submit">Submit Booking Request</button>
+        </form>
+        <p>*Submitting this form does not guarantee availability. A KCR-M representative will contact you within 24 hours.</p>
+    </section>
+    <footer>
+        <p>Contact Info | Social Media Links | Legal & Privacy | Newsletter Signup</p>
+    </footer>
+</body>
+</html>
